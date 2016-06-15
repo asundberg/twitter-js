@@ -2,8 +2,11 @@ var _ = require('lodash');
 
 var data = [];
 
+var counter = 0;
+
 function add (name, text) {
-  data.push({ name: name, text: text });
+  counter++;
+  data.push({ name: name, text: text, id: counter.toString() });
 }
 
 function list () {

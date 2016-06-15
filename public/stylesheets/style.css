@@ -57,3 +57,20 @@ code {
 .content .by {
   font-weight: bold;
 }
+
+li {
+  list-style: none;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.id {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}

@@ -14,6 +14,9 @@ app.use('/', routes);
 app.use(express.static('public'));
 
 
+
+
+
 app.listen(3000, function() {
   console.log("server listening");
 });
