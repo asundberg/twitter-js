@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+//hi!
+
 app.use(function(req, res, next) {
   console.log(req.method);
   console.log(req.path);
